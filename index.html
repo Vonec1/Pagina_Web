@@ -1,0 +1,128 @@
+<!-- ! // html:5 para crear esqueleto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--Metadata para el navegador--> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL</title>
+    <!-- CONEXION CON CSS rel - relacion de este documento-->
+    <link rel="stylesheet" href="/style.css"/>
+    <!-- Primer tipo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!-- Segundo tipo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <!-- Tercer tipo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    <!--Cuarto tipo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<!--BODY es lp que ve el usuario-->
+<body>
+    <!--MAIN - caja que agrupa elementos-->
+    <main>
+       <h1>Los mejores superhéroes de Marvel</h1>
+       <h2>#352 Sus ojos soñadores</h2>
+        <!-- A TRAVES DE LA WEB-->
+        <!-- IMG source (ruta de la imagen) // alt (texto alternativo en caso de que no cargue la imagen)-->
+       <img class="IronM" src="https://lumiere-a.akamaihd.net/v1/images/iron_man_marvel_d9ce0209.jpeg?region=64,0,712,400" alt="Imagen de Iron Man">
+       <img class="Spide" src="https://assets.mycast.io/actor_images/actor-shameik-moore-727212_large.jpg?1680634954" alt="">
+        <!-- A TRAVES DE SU COMPUTADORA-->
+       <img src="./IMAGES/spider-man-across-the-spider-verse-miles-morales-gwen-stacy-header.avif" alt="Spider Man">
+       <!-- LISTAS -->
+       <!-- ul - unordered list (no ordenada)-->
+       <h3> Por que son los mejores?</h3>
+       <ul>
+          <li>Sus trajes son increibles</li>
+          <li>Tienen una personalidad fantastica</li>
+          <li>Porque si</li>
+          <li>Son muy lindos y carismaticos</li>
+          <li>Me salvaron</li>
+       </ul>
+       <!-- ol - Ordered list (ordenada)-->
+       <h3> LISTA ORDENADA</h3>
+       <ol>
+        <li>SpiderMan</li>
+        <li>IronMan</li>
+        <li>Lo conoci despues</li>
+        <li>Fue la primer pelicula que vi en el cine</li>
+       </ol>
+
+       <!-- MENU NAVEGACION DE NUESTRA PAGINA WEB-->
+       <!-- div - una caja para-->
+       <div> <!--ANCLA--> 
+        <!-- El "#" significa que la ancla nos redirigira a una parte de nuestro documento-->
+        <a href="#superheroes"> SpiderMan y IronMan</a>
+        <a href="#spgw"> SpiderGwen</a>
+        <a href="#IrPp"> IronPepper</a>
+       </div>
+       <br>
+       <br> <!-- BR -break o descanso para poner espacio-->
+
+       <!-- SECCIONES DE TEXTO-->
+       <!-- H3 header // encabezado no tan grande como H1-->
+       <!-- id = nombre propio de nuestro elemento, podemos ponerlo donde sea-->
+       <h3 id="spgw">Miles y Gwen harian bonita pareja</h3>
+       <p>
+        En efecto, solo que a Gwen le da miedo y traiciono a Miles.
+        El amor de Iron y Pepper es de los mas hermosos.
+       </p>
+       <br> 
+
+       <p> Haz click en esta imagen para una sorpresa</p>
+       <a href="https://www.youtube.com/watch?v=LBkenYxCBOs"> 
+        <img class="spider-miles" src="/IMAGES/spiderman-into-the-spiderverse-wallpaper-2560×1080.webp" alt="">
+       </a>
+
+       <!--FORMULARIOS-->
+       <form>
+        <!-- FORMULARIO INPUT-->
+        <p> Prefieres IronMan o SpiderMan?</p>
+        <!-- Etiqueta identificadora for - identificador de formulario-->
+        <label for="dif-SoI">
+            <input type="text">
+            <buttom>ENVIAR</buttom>
+        </label>
+
+        <!-- FORMULARIO INPUT RADIO-->
+        <p>¿Cuál es tu película favorita de Iron Man?</p>
+        <!-- NAME -para que las respuestas se asocien al mismo formulario-->
+        <!-- FOR -se asocia a cada respuesta individualmente-->
+        <label for="1">
+            <input type="radio" name="IronMan"> Iron Man 1
+        </label>
+        <label for="2">
+            <input type="radio" name="IronMan"> Iron Man 2
+        </label>
+        <label for="3">
+            <input type="radio" name="IronMan"> Iron Man 3
+        </label>
+
+        <!-- FORMULARIO INPUT CHECKBOX-->
+        <p>¿Cuál es tu película favorita de SpiderMan?</p>
+        <!-- NAME -para que las respuestas se asocien al mismo formulario-->
+        <!-- FOR -se asocia a cada respuesta individualmente-->
+        <label for="1">
+            <input type="checkbox" name="SpiderMan"> Spider Man1
+        </label>
+        <label for="2">
+            <input type="checkbox" name="SpiderMan"> Spider Man2
+        </label>
+        <label for="3">
+            <input type="checkbox" name="SpiderMan"> Spider Man3
+        </label>
+       </form>
+    </main>
+</body>
+</html>

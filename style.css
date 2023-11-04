@@ -1,0 +1,53 @@
+/* 
+Selector  {
+    propiedad: valor;
+    propiedad: valor;
+}
+    */
+
+    body {
+        /*Cambiar color de fondo */
+        background-color: #64CCC5;
+        /*Color de texto */
+        color: rgb(4, 54, 74); 
+        /*tipo de letra*/
+        /*font-family: fantasy;*/
+        font-family: 'Tilt Neon', sans-serif;
+    }
+
+    h1 {
+        color:midnightblue;
+        font-family: 'Lobster', sans-serif;
+
+    }
+
+    h3 {
+        color: blueviolet;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    a {
+        color:crimson; 
+    }
+
+    img {
+        /*ancho del objeto, alto del objeto*/
+        width: 800px;
+    }
+
+    /* Al referenciar clase, usamos un punto (.) */
+    .IronM {
+        width: 500px;
+    }
+
+    .Spide {
+        width: 300px;
+    }
+    .spider-miles {
+        width: 500px;
+        /* border radius */
+        border-radius: 10%;
+        /* sombras */
+        box-shadow: 1px 0px 50px rgb(193, 13, 13);
+
+    }
